@@ -16,7 +16,7 @@
   which bundler
 }
 
-@test "It should install Python 3.2.3" {
+@test "It should install Python 3.4.2" {
   run python --version
-  [[ $output =~ "3.2.3" ]]
+  [[ $output =~ "3.4.2" ]]
 }
